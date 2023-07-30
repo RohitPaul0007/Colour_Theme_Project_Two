@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 100;
+    background-color: #646464fd;
+    font-family: Castellar, sans-serif;
+}
+
+#colorbox {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+    background-color: #020202;
+    box-shadow: 2 2px 5px rgba(221, 134, 134, 0.1);
+    border-radius: 5px;
+}
+ 
+#colorbox span {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    border-radius: 0;
+    cursor: pointer;
+    border: solid;
+}
